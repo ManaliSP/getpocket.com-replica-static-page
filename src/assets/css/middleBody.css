@@ -1,0 +1,80 @@
+.Middle-div{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.Left-Middle-Div{
+    height: 100%;
+    width: 50%;
+  }
+.Righ-Middle-Div{
+  height: 100%;
+  width: 50%;
+  display:flex ;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 30%;
+}
+.Righ-Middle-Div  h2
+{
+  color: white;
+  font-size: 3rem;
+  padding-right: 35%;
+  font-family: graphik lcg,proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.Righ-Middle-Div  h5{
+  font: bold;
+  color:black;
+  padding-right: 30%;
+  align-items:left ;
+}
+.Righ-Middle-Div  h6{
+  font: bold;
+  margin-top: 0;
+  color:black;
+  padding-right: 50%;
+}
+.Righ-Middle-Div button{
+    height:50px ;
+    width: 250px;
+    color: black;
+    border-radius: 5px;
+    background-color:#fff;
+    margin-bottom: 17px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  @media screen and (max-width: 992px) {
+    .Righ-Middle-Div {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) and (min-width :400px){
+    .Righ-Middle-Div {
+      width: 100%;
+      background-image: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .Middle-div{
+      height: 90%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background-image: 100%;
+  }
+  .Left-Middle-Div{
+      display: none;
+      background-image: 100%;
+    }
+  .Righ-Middle-Div{
+    height: 100%;
+    width: 70%;
+    display:flex ;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10%;
+  }
+  }

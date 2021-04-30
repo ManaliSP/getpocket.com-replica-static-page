@@ -1,0 +1,26 @@
+.Gardner-Div{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font: bold;
+    color: black;
+}
+button{
+    height: 40px;
+    width: 110px;
+    font: bold;
+    color:white;
+    background-color: #007a73;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
